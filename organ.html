@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Doner Registration</title>
+<link rel="stylesheet" href="/static/css/organ.css">
+</head>
+<body>
+    <div class="organ-box">
+<h1>Doner Registration</h1>
+<form action="/organDoner" method="POST">
+
+<input type="name" value="" name="name" placeholder="Enter Name">
+<br><br>
+
+<input type="mobile no" value="" name="mobileno" placeholder="Enter Mobile No">
+<br><br>
+
+<input type="blood group" value="" name="bloodgroup" placeholder="Enter Blood Group">
+<br><br>
+<p>ORGAN</p>
+<select name = "organ">
+	<option>---Select----</option>
+	<option>Eye</option>
+	<option>heart</option>
+	<option>kidney</option>
+	</select>
+<br><br>
+<input type="submit" name="sub" value="Submit">
+<br><br>
+<a href="/userHome.html">Go Back<br><br></a>
+</form>
+</div>
+</body>
+</html>

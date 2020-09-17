@@ -1,0 +1,318 @@
+body, #container {
+	padding: 0vw;
+	margin: 0vw;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #F5F5F5;
+	color: black;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.7vw;
+	text-align: center;
+	width: 100vw;
+	height: auto;
+}
+
+#header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky; 
+	top: 0;
+	width: 100vw;
+	background-color: #F5F5F5;
+}
+
+#logo {
+	height: 7vw;
+	padding-left: 4vw;
+}
+
+#navBar {
+	padding-right: 4vw;
+}
+
+.navButton {
+	background-color: #F5F5F5;
+	font-weight: bold;
+	color: black;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.5vw;
+	text-align: center;
+	border: none;
+	margin-left: 1vw;
+}
+
+.navButton:hover {
+	color: #148F77;
+}
+
+#sel {
+	display: none;
+}
+
+#main {
+	width: 100vw;
+}
+
+.sec1 {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-position: center;
+	font-size: 2.5vw;
+	color: #F5F5F5;
+	padding: 10vw;
+}
+
+.sec2 {
+	padding: 2vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+#lights {
+	background-image: url("https://mika.is/wp-content/uploads/2017/11/shutterstock_675590356-1200x849.jpg");
+}
+
+#iceland {
+  background-image: url("https://icelandmag.is/sites/default/files/styles/lightbox/public/thumbnails/image17mynf99160113_nord_05.jpg?itok=q_WGu87w");
+}
+
+#norway {
+	background-image: url("https://lonelyplanetwpnews.imgix.net/2017/12/northern-lights-1.jpg");
+}
+
+#sweden {
+	background-image: url("http://getwallpapers.com/wallpaper/full/8/3/e/198252.jpg");
+}
+
+#finland {
+	background-image: url("https://d3avoj45mekucs.cloudfront.net/rojakdaily/media/iylia/lifestyle/aurora6.jpg");
+}
+
+#north {
+	background-image: url("https://www.ebookers.com/travel-blog/wp-content/uploads/2016/09/iStock_58467326_MEDIUM.jpg");
+}
+
+#contact {
+	background-color: #ECECEC;
+	font-size: 2vw;
+	padding: 5vw;
+}
+
+.inputDesign {
+	width: 25vw;
+	font-family: 'Rokkitt', serif;
+	padding: 0.5vw;
+	font-size: 1.5vw;
+	text-align: center;
+}
+
+#submitBtn {
+	background-color: #3CB371;
+	color: #F5F5F5;
+	border: none;
+	border-radius: 10vw;
+	font-size: 2vw;
+	font-weight: bold;
+	padding: 1.2vw;
+}
+
+#submitBtn:hover {
+	background-color: #90EE90;
+}
+
+#f1, #f2 {
+	width: 100vw;
+}
+
+#f1 {
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	background-color: #90EE90;
+	font-size: 2vw;
+}
+
+.fa {
+	padding: 1.5vw;
+	text-decoration: none;
+	background-color: #90EE90;
+	color: black;
+	font-weight: bold;
+}
+
+.fa:hover {
+	color: #3CB371;
+}
+
+#f2 {
+	background-color: #3CB371;
+	font-size: 1.5vw;
+	padding-top: 11vw;
+	padding-bottom: 4vw;
+}
+
+#imgf2 {
+  height: 10vw;
+  width: auto;
+}
+
+#signature {
+	color: #90EE90;
+}
+
+@media (max-width: 600px)
+{
+	#logo {
+		height: 12vw;
+	}
+
+	.navButton {
+		display: none;
+	}
+
+	#sel { 
+		padding-right: 4vw;
+		font-size: 3vw;
+  		display: inline-block;
+  		font-family: 'Rokkitt', serif;
+  		background-color: #F5F5F5; 
+  		color: black;
+    	font-weight: bold;
+    	border: none;
+  	}
+
+  	.opt {
+  		background-color: #F5F5F5; 
+  		font-family: 'Rokkitt', serif;
+    	font-weight: bold;
+    	color: black;
+  	}
+
+  	.sec1 {
+  		font-size: 6vw;
+  		padding: 30vw;
+  	}
+
+  	#lights {
+  		padding: 15vw;
+  	}
+
+  	.sec2 {
+		font-size: 4vw;
+	}
+
+	#contact {
+		font-size: 4.5vw;
+}
+.login-box{
+width: 90px;
+height: 50vh;
+background: rgba(0,0,0,1.9);
+color: #f18973;
+top: 60%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding:15px 10px;
+}
+.avatar{
+width: 5px;
+height: 15px;
+border-radius: 80px;
+position: absolute;
+top: -80px;
+left: calc(50% -50px);
+}  
+h1{
+margin: 0;
+color: #5c91db;
+padding: 0 0 20px;
+text-align: center;
+font-size: 10px;
+}
+.login-box p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+font-size: 10px;
+color: #fff;
+}
+.login-box input{
+width:100%;
+margin-bootom: 10px;
+
+}
+.login-box input[type="text"],input[type="password"]
+{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: #fff;
+font-size: 15px;
+
+}
+
+.login-box input[type="submit"]
+{
+border:none;
+border-radius: 10px;
+background: green;
+outline: none;
+height: 40px;
+color: #fff;
+font-size: 10px;
+}
+.login-box input[type="submit"]:hover
+{
+cursor: pointer;
+background: #1c8adb;
+color: #000;
+}
+.login-box a{
+text-decoration: none;
+font-size: 10px;
+color: #fff;
+}
+.login-box a:hover{
+color: #39dc79;
+}
+    padding: 15vw;
+	}
+	
+	.inputDesign {
+		width: 50vw;
+		padding: 1vw;
+		font-size: 3vw;
+	}
+
+	#submitBtn {
+		font-size: 4.5vw;
+		padding: 2.5vw;
+	}
+
+	#f1 {
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+		font-size: 5vw;
+	}	
+
+	#f2 {
+		font-size: 3vw;
+		padding-top: 11vw;
+		padding-bottom: 4vw;
+	}
+  
+  #imgf2 {
+    height: 7vw;
+  }
+}

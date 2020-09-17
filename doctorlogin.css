@@ -1,0 +1,38 @@
+body{
+margin: 0;
+padding: 0;
+background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(https://www.dicardiology.com/sites/daic/files/doctor_female_hospital_iStock_000003709313Medium_1.jpg);
+font-family: verdana;
+background-repeat:no-repeat;
+height:10vh;
+}
+#main{
+width: 100%;
+height: 100vh;
+background-image: url(../1.jpg);
+background-size: cover;
+}
+nav{
+width: 100%;
+height: 100%;
+background-color: #0009;
+line-height: 80px;
+}
+nav ul{
+f1oat: right;
+margin-right: 30px;
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+transition: 0.8s all;
+}
+nav  ul li:hover {
+background-color: #f39d1a;
+height:70px;
+}
+nav ul li a {
+text-decoration: none;
+color: #fff;
+padding: 30px;
+}

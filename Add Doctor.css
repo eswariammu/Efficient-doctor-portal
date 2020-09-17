@@ -1,0 +1,120 @@
+body{
+margin:0;
+padding:0;
+background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(https://www.biospace.com/getasset/a878e8b7-aa0b-4d17-a2e3-e5fa3b531393/);
+background-size:cover;
+background-position:center;
+}
+
+.Add doctor-box{
+width:300px;
+height:250px;
+color:#fff;
+top:30%;
+left:50%;
+position:absolute;
+transform:translate(-50%,-50%);
+padding:50px 20px;
+line-height: 250%;
+}
+.Add doctor img{
+width:10px;
+height:auto;
+text-align:center;
+float:left;
+}
+h1{
+margin:0;
+font-size:28px;
+color:#5c91db;
+padding:10 20px;
+text-align:center;
+
+}
+.Add doctor-box p{
+margin:0;
+padding:0;
+font-weight:bold;
+font-size:25px;
+color:#fff;
+float:center;
+text-align:center;
+}
+.Add doctor-box input{
+width:100%;
+margin-bootom:10px;
+float:center;
+text-align:center;
+font-size:20px;
+
+}
+.Add doctor-box input type[type="text"],input[type="password"]
+{
+border:none;
+border-bottom:1px solid #fff;
+background:transparent;
+outline:none;
+height:20px;
+color:#fff;
+font-size:25px;
+float:center;
+text-align:center;
+}
+
+.Add doctor-box select {
+float:center;
+text-align:center;
+}
+.Add doctor-box input[type="submit"]
+{
+border:none;
+border-radius:15px;
+background: #000000;
+outline:none;
+height:50px;
+color:#fff;
+font-size:20px;
+}
+.Add doctor-box input[type="submit"]:hover
+{
+cursor:pointer;
+background:#5CE93C;
+color:#fff;
+font-size:20px;
+}
+.Add doctor-box a{
+text-decoration:none;
+font-size:20px;
+color:#fff;
+
+}
+.Add doctor-box a:hover{
+color:#39dc79;
+}
+.Add doctor-box input[type="cancel"]
+{
+border:none;
+border-radius:15px;
+background: #000000;
+outline:none;
+height:50px;
+color:#fff;
+font-size:20px;
+}
+.Add doctor-box input[type="Cancel"]:hover
+{
+cursor:pointer;
+background:#5CE93C;
+color:#fff;
+font-size:20px;
+}
+.Add doctor-box a{
+text-decoration:none;
+font-size:20px;
+color:#fff;
+
+}
+.Add doctor-box a:hover{
+color:#39dc79;
+
+

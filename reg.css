@@ -1,0 +1,69 @@
+<html>
+<head></head>
+<body background = ("https:// st3.depositphotos.con/4111759/18943/v/1600/depositphotos_1894351")
+
+<table border='0'  align='center'>
+<center>
+    <h1>REGISTER YOUR ACCOUNT </h1>
+</center>
+     &emsp;
+     <td> align='center'>Name</td>
+     <td><input type='text' placeholder="Enter Name" name='name'></td>
+     
+<tr> <td>&nbsp;</td> </tr>]
+
+     <td align='center'>Last Name</td>
+     <td><input type='text placeholder='"Enter Last name" name='name'></td>
+     
+<tr><td>&nbsp;</td> </tr>
+
+    <td align='center'>Date Of Birth</td>  
+    <td><input type='text' placeholder="Enter Date of Birth " name='name'></td> 
+    
+ <tr> <td>&nbsp;</td> </tr> 
+ 
+      <td align='center'>Gender</td>
+      <td align='center'>Gender</td>
+     <td> <input type="radio" name="gender" values="male">Male
+   <input type="radio" name="gender" values="female"> Female
+   <input type="radio" name="gender" values="others"> others</td>
+   
+<tr> <td>&nbsp;</td> </tr>
+    
+    <td align='center'>phone</td> 
+    <td><input type='text' placeholder="0123456789" name='name'></td>
+   
+<tr> <td>&nbsp;</td> </tr> 
+
+     <td align='center'>Email</td>
+     <td><input type='text'placeholder="Enter Email" name='name'></td>
+<tr> <td>&nbsp;</td> </tr>
+
+     <td align='center'>Password</td>
+     <td><input type='text'placeholder="Enter Password" name='name'></td>
+     
+<tr> <td>&nbsp;</td></tr> 
+<td align='center'>Retype Password</td>
+    <td><input type='text'placeholder="Enter retype password" name='name'></td>
+<tr> <td>&nbsp;</td></tr>
+
+    <td align='center'>Email</td> 
+    <td><input type='text'placeholder="Enter Email" name='name'></td>
+    
+<tr> <td>&nbsp;</td></tr>
+
+    <td align='center'>Password</td>
+    <td><input type='text'placeholder="Enter Password" name='password'></td>
+<tr> <td>&nbsp;</td> </tr> 
+<td align='center'>Retype Password</td>  
+     <td><input type='text'placeholder="Enter Retype Password" name='Retype password'></td> 
+<tr> <td>&nbsp;</td> </tr>      
+     <td align='center'><input type='submit' name='REGISTER' value="REGISTER"</td> 
+     <td align='center'><input type='submit' name='CANCEL' value="CANCEL"</td>
+     
+     
+</table>
+</body>
+</html>     
+                    
+       

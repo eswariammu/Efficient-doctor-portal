@@ -1,0 +1,82 @@
+body{
+margin:0;
+padding:0;
+background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(https://www.biospace.com/getasset/a878e8b7-aa0b-4d17-a2e3-e5fa3b531393/);
+background-size:cover;
+background-position:center;
+}
+.Add doctor-box{
+width:300px;
+height:250px;
+color:#fff;
+top:30%;
+left:50%;
+position:absolute;
+transform:translate(-50%,-50%);
+padding:50px 20px;
+line-height: 250%;
+}
+h1{
+margin:0;
+font-size:28px;
+color:#5c91db;
+padding:10 20px;
+text-align:center;
+}
+.doctor availability-box select {
+float:center;
+text-align:center;
+}
+.doctor availability-box input[type="submit"]
+{
+border:none;
+border-radius:15px;
+background: #000000;
+outline:none;
+height:50px;
+color:#fff;
+font-size:20px;
+}
+.doctor availability-box input[type="submit"]:hover
+{
+cursor:pointer;
+background:#5CE93C;
+color:#fff;
+font-size:20px;
+}
+.doctor availability-box a{
+text-decoration:none;
+font-size:20px;
+color:#fff;
+
+}
+.doctor availability-box a:hover{
+color:#39dc79;
+}
+.doctor availability-box input[type="cancel"]
+{
+border:none;
+border-radius:15px;
+background: #000000;
+outline:none;
+height:50px;
+color:#fff;
+font-size:20px;
+}
+.doctor availability-box input[type="Cancel"]:hover
+{
+cursor:pointer;
+background:#5CE93C;
+color:#fff;
+font-size:20px;
+}
+.doctor availability-box a{
+text-decoration:none;
+font-size:20px;
+color:#fff;
+
+}
+.doctor availability-box a:hover{
+color:#39dc79;
+}
+

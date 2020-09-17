@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Newbooking</title>
+<link rel="stylesheet" href="/static/css/New booking.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<form action = "/appBooking" method = "POST">
+<div class="login-box">
+<p>category</p> 
+<center>
+<select name = "category">
+	<option>--select--</option>
+	<option>Normal</option>
+	<option>Bone</option>
+	<option>Heart</option>
+	<option>Plastic surgery</option>
+</select></center><br><br>
+<p>Date</p> <br><br>
+<input type="date" name="date" placeholder="Enter date"><br><br>
+<p>Time</p> <br><br>
+<input type="time" name="time" placeholder="Enter Time">&emsp;
+<input type="submit" name="submit" value="Book"><br><br>
+<a href="/userHome.html">Go Back<br><br></a>
+</form>
+</div>
+
+</body>
+</html>  
